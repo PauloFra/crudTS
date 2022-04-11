@@ -19,7 +19,7 @@ import moment from 'moment';
 import { formatCpf } from '../../Utils';
 // moment(arr.dataNascimento ,'YYYY-MM-DD' ).format('DD/MM/YYYY');
 function ListaUsers({pessoas}:PessoasDTO) {
-    const {objPessoa , setObjPessoa} = useContext<any>(AuthContext)
+    const {objPessoa , setObjPessoa ,getInPessoa} = useContext<any>(AuthContext)
 
     function setPessoa(values:any){
         setObjPessoa(values)
@@ -36,7 +36,7 @@ function ListaUsers({pessoas}:PessoasDTO) {
                 try{
                     const {data} = await api.delete(`/pessoa/${values.idPessoa}`)
                     Notiflix.Notify.success('Usuario deletado');
-                    setTimeout(() =>{ document.location.reload()}, 1000);  
+                    getInPessoa(); 
              }
                 catch(error){
                     console.log(error)

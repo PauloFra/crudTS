@@ -36,7 +36,7 @@ function ListAddress() {
         try{
         const {data} = await api.delete(`/endereco/${values.idEndereco}`)
         Notiflix.Notify.success('Endereço deletado');
-        setTimeout(() =>{ document.location.reload()}, 1000);  
+        getInEndereço();  
         
         }
         catch(error){
