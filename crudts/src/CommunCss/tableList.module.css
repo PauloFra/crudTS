@@ -1,0 +1,138 @@
+.divDaLista{
+    border-radius: 10px;
+    background-color: white;
+    margin: 35px 0;
+    border: 1px solid #DFE0EB;
+}
+.mainTable{
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+.secondHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainTable th{
+  padding: 30px 20px 30px 30px;
+  border-top: 1px solid #DFE0EB;
+  font-weight: bold;
+}
+.secondHeader li{
+    display: inline;
+    margin-left: 10px; 
+}
+.secondHeader ul{
+   margin: 0;
+}
+.secondHeader div , h4 ,h2{
+    margin: 0;
+}
+.bigContent{
+    width: 1550px;
+    padding: 25px 40px;
+    font-size: 20px;
+    color: #252733;
+    background-color: #F7F8FC;  
+}
+.headerTable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+.headerTable li{
+    display: inline;
+    margin-left: 20px;
+}
+.secondHeader ul{
+    padding-right: 25px;
+    border-right:1px solid #9FA2B4;
+}
+thead tr{
+    padding: 0;
+}
+.cabeçalhoTable th{
+    padding-bottom: 10px;
+    border-top: none;
+    color: #9FA2B4;
+    font-weight: bold;
+}
+.mainTable tr:hover{
+    background-color: #dcdcdc;
+    transition: 0.4s;
+}
+.secondHeader img{
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.nameAndFoto{
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+.secondHeader a{
+    font-size: 30px;
+    color: #9FA2B4;
+}
+.headerTable a{
+    font-size: 20px;
+    color: #9FA2B4;
+    text-decoration: none;
+}
+tbody a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color:#252733;
+}
+.divFlex{
+    display: flex;
+    font-size: 25px;
+    width: 200px;
+    color: white;
+    margin-left: 15px;
+}
+.divEdit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #29CC97;
+    border-radius: 30px;
+    padding: 2px;
+    width: 65px;
+    color: white;
+    transition: 1s;
+}
+.divEdit:hover{
+   background-color: #31edae;
+   color: #252733;
+}
+.divRemove{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F12B2C;
+    border-radius: 30px;
+    padding: 2px;
+    margin-left: 20px;
+    width: 65px;
+    color: white;
+    transition: 1s;  
+}
+.divRemove:hover{  
+    background-color: #ff5959;
+    color: #252733;
+    transition: 1s;
+}
+.textCenter{
+    margin-left: 33px;
+}
+.linkToAdd a{
+    font-size:22px;
+    color: #252733;
+}
+.headerTable a:hover{
+   text-decoration: underline;
+}

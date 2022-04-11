@@ -1,0 +1,31 @@
+.divMaior {
+    width: 60% !important;
+    margin: 120px 0;
+    border: 1px solid #9FA2B4;
+}
+.btnConsultaCep{
+    font-size: 20px;
+    background-color: #363740;
+    color: white;
+    border: none;
+    height: 53px;
+    margin: 10px 0;
+    transition: 1s;
+    border-radius: 6px;
+}
+.divBg{
+    background-color: #F7F8FC;
+}
+.divBg select{
+    height: 42px;
+    font-size: 19px;
+    padding-left: 15px;
+    border-radius: 8px;
+    color: #9FA2B4;
+    border: 1px solid #DFE0EB;
+    outline-color: #DFE0EB;
+}
+.btnConsultaCep:hover{
+  transition: 1s;
+  background-color: #5b5b5b;
+}
